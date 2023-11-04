@@ -85,7 +85,7 @@ class Buttons(object):
         [truecaller_redirect_regex],
         [strong_password_generator_text, video_downloader_text],
         [temp_mail_text, qr_code_text],
-        [movie_regex],
+        [movies_regex],
         [text_to_speech_text, pdf_converter_text],
         [money_regex, more_regex],
         #[trucaller_info_text],
