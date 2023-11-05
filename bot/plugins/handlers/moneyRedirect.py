@@ -7,8 +7,12 @@ from bot.config import Buttons
     & pyrogram.filters.private
     & pyrogram.filters.incoming
 )
+async def feedback_handler(bot, update):
+    await update.reply_text(text, disable_web_page_preview=True)
 
-reply = """Hey 👋
+
+
+text = """Hey 👋
 
 Are you tired of searching for ways to earn money without putting in too much effort? Look no further! I've got an incredible app that works on Android, macOS, and Windows, and it's called Honeygain! 🐝💰
 
@@ -30,5 +34,3 @@ Check Proves in @hackinsider private channel (Join the private channel with link
 (Personally tried and tested by Admin)
 """
 
-async def feedback_handler(bot, update):
-    await update.reply_text(reply)
