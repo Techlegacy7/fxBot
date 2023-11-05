@@ -65,7 +65,7 @@ class Buttons(object):
     strong_password_generator_text = "🔒 Strong Pass-Gen"
     video_downloader_text = "👾 Video Downloader"
     temp_mail_text = "📨 Temp Mail"
-    qr_code_text = "🌀 QR Code "
+    qr_code_text = "🌀 QR Code"
     text_to_speech_text = "🗣️ Text To Speech"
     pdf_converter_text = "📂 PDF Converter"
     truecaller_redirect_regex = "📞 Truecaller finder"
@@ -89,10 +89,10 @@ class Buttons(object):
         [movies_regex],
         [text_to_speech_text, pdf_converter_text],
         [money_regex, more_regex],
-        #[trucaller_info_text],
-        #[help_regex, about_regex],
-        #[movies_regex, contact_regex],
-        #[feedback_regex, more_bot_regex],
+        [trucaller_info_text],
+        [help_regex, about_regex],
+        [movies_regex, contact_regex],
+        [feedback_regex, more_bot_regex],
     ]
 
     START_BUTTONS = [
