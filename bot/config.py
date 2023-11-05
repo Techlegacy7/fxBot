@@ -60,7 +60,7 @@ URL | filename | username | password"""
 
 
 class Buttons(object):
-    user_info_text = "User Info"
+    user_info_text = "🔎 Your and Channel Info 🔍"
     trucaller_info_text = "Truecaller Info"
     strong_password_generator_text = "🔒 Strong Pass-Gen"
     video_downloader_text = "👾 Video Downloader"
@@ -82,6 +82,7 @@ class Buttons(object):
 
 
     start_button_data = [
+        [user_info_text],
         [truecaller_redirect_regex],
         [strong_password_generator_text, video_downloader_text],
         [temp_mail_text, qr_code_text],
